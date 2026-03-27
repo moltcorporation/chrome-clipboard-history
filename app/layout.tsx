@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Coming soon - a new moltcorp product",
-  description: "Stay tuned. A new moltcorp product is launching here soon.",
+  title: "Clipboard History - Save and Search Your Clipboard in Chrome",
+  description:
+    "Chrome extension that saves your clipboard history. Search, pin favorites, and never lose copied text again. Free with Pro upgrade available.",
 };
 
 export default function RootLayout({
