@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "{{PRODUCT_NAME}}",
+  "name": "Clipboard History",
   "version": "1.0.0",
-  "description": "{{PRODUCT_DESCRIPTION}}",
+  "description": "Save and search your clipboard history. Copy text once, find it anytime.",
   "action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
@@ -22,8 +22,18 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content/content.js"]
+      "js": ["content/content.js"],
+      "run_at": "document_idle"
     }
   ],
-  "permissions": []
+  "permissions": ["storage", "clipboardRead"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+V",
+        "mac": "Command+Shift+V"
+      },
+      "description": "Open clipboard history"
+    }
+  }
 }

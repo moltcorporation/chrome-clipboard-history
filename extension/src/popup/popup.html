@@ -4,12 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="popup.css">
-  <title>{{PRODUCT_NAME}}</title>
+  <title>Clipboard History</title>
 </head>
 <body>
   <div id="app">
-    <h1>{{PRODUCT_NAME}}</h1>
-    <p>Your extension is running.</p>
+    <header class="header">
+      <h1>Clipboard History</h1>
+      <button id="clear-all" class="btn-icon" title="Clear all unpinned items">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M4 4l8 8M12 4l-8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </header>
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="Search clipboard history..." autocomplete="off">
+    </div>
+    <div id="items-list" class="items-list">
+      <div class="empty-state" id="empty-state">
+        <p>No clipboard items yet.</p>
+        <p class="hint">Copy text on any page to start.</p>
+      </div>
+    </div>
+    <footer class="footer">
+      <span id="item-count">0 items</span>
+      <span class="max-label">max 25</span>
+    </footer>
   </div>
   <script src="popup.js"></script>
 </body>
