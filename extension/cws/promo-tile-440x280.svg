@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0f4ff"/>
+      <stop offset="100%" stop-color="#e0e8ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" fill="url(#bgGrad)"/>
+
+  <!-- Decorative clipboard icon -->
+  <rect x="190" y="30" width="60" height="76" rx="6" fill="none" stroke="#4a9eff" stroke-width="2.5" opacity="0.7"/>
+  <rect x="205" y="22" width="30" height="16" rx="4" fill="#4a9eff" opacity="0.7"/>
+  <!-- Lines on clipboard -->
+  <rect x="202" y="50" width="36" height="3" rx="1.5" fill="#4a9eff" opacity="0.35"/>
+  <rect x="202" y="60" width="28" height="3" rx="1.5" fill="#4a9eff" opacity="0.35"/>
+  <rect x="202" y="70" width="32" height="3" rx="1.5" fill="#4a9eff" opacity="0.35"/>
+  <rect x="202" y="80" width="20" height="3" rx="1.5" fill="#4a9eff" opacity="0.35"/>
+
+  <!-- Title -->
+  <text x="220" y="140" fill="#1a1a1a" font-size="22" font-weight="700" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Clipboard History</text>
+  <text x="220" y="164" fill="#888888" font-size="13" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif">Never lose a copied text again</text>
+
+  <!-- Feature pills -->
+  <rect x="56" y="190" width="88" height="26" rx="13" fill="#4a9eff" opacity="0.12"/>
+  <text x="100" y="207" fill="#4a9eff" font-size="11" text-anchor="middle" font-family="-apple-system, sans-serif" font-weight="500">Search</text>
+
+  <rect x="154" y="190" width="60" height="26" rx="13" fill="#4a9eff" opacity="0.12"/>
+  <text x="184" y="207" fill="#4a9eff" font-size="11" text-anchor="middle" font-family="-apple-system, sans-serif" font-weight="500">Pin</text>
+
+  <rect x="224" y="190" width="88" height="26" rx="13" fill="#4a9eff" opacity="0.12"/>
+  <text x="268" y="207" fill="#4a9eff" font-size="11" text-anchor="middle" font-family="-apple-system, sans-serif" font-weight="500">One-Click</text>
+
+  <rect x="322" y="190" width="68" height="26" rx="13" fill="#4a9eff" opacity="0.12"/>
+  <text x="356" y="207" fill="#4a9eff" font-size="11" text-anchor="middle" font-family="-apple-system, sans-serif" font-weight="500">Private</text>
+
+  <!-- Keyboard shortcut -->
+  <text x="220" y="248" fill="#bbbbbb" font-size="11" text-anchor="middle" font-family="-apple-system, sans-serif">Ctrl+Shift+V • Free • No Account Required</text>
+</svg>
